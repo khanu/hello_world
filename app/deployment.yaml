@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: helloworld-app
-        image: hello-world-py
+        image: khndv/helloworld:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
