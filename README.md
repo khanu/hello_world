@@ -21,4 +21,9 @@ kubectl apply -f argocd/app.yaml
 Use the [ArgoCD Getting Started page](https://argoproj.github.io/argo-cd/getting_started/) for understanding how to retreive the ArgoCD admin credentials and do a port-forwarding to run the ArgoCD UI from your local.
 
 You will be able to see that the app has been deployed from the ArgoCD UI. Alternatively, you can use the UI itself to deploy the app rather than kubectl commands.
+
 Any changes made to the app repo (app/deployment.yaml) is auto-detected by Argo and it is treated as the desired state, and it applies it to the current state (Currently running app).
+
+Author Information
+------------------
+Khanu Dev (khaaanu@gmail.com)
